@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 16
+Implementation-Title: deBlogBrotherSB
+Implementation-Version: 0.1
+Main-Class: com.java.main.dbb.DeBlogBrotherSbApplication
+Created-By: Maven Integration for Eclipse
+
