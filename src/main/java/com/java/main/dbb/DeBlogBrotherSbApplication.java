@@ -17,4 +17,14 @@ public class DeBlogBrotherSbApplication {
 
 	public static void main(String[] args) { SpringApplication.run(DeBlogBrotherSbApplication.class, args); }
 
+	
+//	@Override
+//	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//		return configureApplication(builder);
+//	}
+//
+//	private static SpringApplicationBuilder configureApplication(SpringApplicationBuilder builder) {
+//		return builder.sources(Application.class).bannerMode(Banner.Mode.OFF);
+//	}
+	
 }
