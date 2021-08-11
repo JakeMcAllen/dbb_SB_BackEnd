@@ -71,7 +71,6 @@
 		
 		
 		<!-- Librerie extra -->
-		<!-- Downgrade immagine -->
 		<dependency>
 		    <groupId>org.imgscalr</groupId>
 		    <artifactId>imgscalr-lib</artifactId>
@@ -95,34 +94,12 @@
 	
 
 	<build>
-	    <plugins>
-	    	<plugin>
-	    		<groupId>org.springframework.boot</groupId>
-	    		<artifactId>spring-boot-maven-plugin</artifactId>
-	    	</plugin>
-	        <plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-dependency-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals><goal>copy</goal></goals>
-						<configuration>
-							<artifactItems>
-								<artifactItem>
-									<groupId>com.heroku</groupId>
-									<artifactId>webap-runner</artifactId>
-									<version>9.0.30.0</version>
-									<destFileName>webapp-runner-jar</destFileName>
-								</artifactItem>
-							</artifactItems>
-						</configuration>
-					</execution>
-					
-				
-				</executions>
-	        </plugin>
-	    </plugins>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
 	</build>
 
 </project>
