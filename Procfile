@@ -1,1 +1,1 @@
-web: java -D spring.profiles.active=default -D server.port=8080 -jar target/*.jar
+web: gunicorn dbb_SB_BackEnd:DeBlogBrotherSbApplication --server.port=8080
