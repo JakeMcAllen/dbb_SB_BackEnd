@@ -1,1 +1,1 @@
-web: gunicorn dbb_SB_BackEnd:DeBlogBrotherSbApplication --server.port=8080
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
