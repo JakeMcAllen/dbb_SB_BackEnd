@@ -1,1 +1,1 @@
-web: java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/*.jar
+web: java -D spring.profiles.active=default -D server.port=$PORT -jar target/*.jar
