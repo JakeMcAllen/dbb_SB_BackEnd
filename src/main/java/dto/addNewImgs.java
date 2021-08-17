@@ -11,24 +11,26 @@ public class addNewImgs {
 	private String[] lstimg;
 	private int val;
 	
+	private int cop;
+	
 	// user 
 	private String username;
 	private String password;
 	
 	
 	
-	public addNewImgs() {}
-	public addNewImgs(int id, String[] lstimg, int val, String username, String password) {
+	public addNewImgs() {}	
+	public addNewImgs(int id, String[] lstimg, int val, int cop, String username, String password) {
 		super();
 		this.id = id;
 		this.lstimg = lstimg;
 		this.val = val;
+		this.cop = cop;
 		this.username = username;
 		this.password = password;
 	}
-	
-	
-	
+
+
 	public int getId() {
 		return id;
 	}
@@ -47,6 +49,12 @@ public class addNewImgs {
 	public void setVal(int val) {
 		this.val = val;
 	}
+	public int getCop() {
+		return cop;
+	}
+	public void setCop(int cop) {
+		this.cop = cop;
+	}
 	public String getUsername() {
 		return username;
 	}
@@ -64,8 +72,8 @@ public class addNewImgs {
 	
 	@Override
 	public String toString() {
-		return "addNewImgs [id=" + id + ", lstimg=" + Arrays.toString(lstimg) + ", val=" + val + ", username="
-				+ username + ", password=" + password + "]";
+		return "addNewImgs [id=" + id + ", lstimg=" + Arrays.toString(lstimg) + ", val=" + val + ", cop=" + cop
+				+ ", username=" + username + ", password=" + password + "]";
 	}
 	
 }
