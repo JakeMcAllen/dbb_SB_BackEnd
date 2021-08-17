@@ -72,7 +72,7 @@ public class addNewImgs {
 	
 	@Override
 	public String toString() {
-		return "addNewImgs [id=" + id + ", lstimg=" + Arrays.toString(lstimg) + ", val=" + val + ", cop=" + cop
+		return "addNewImgs [id=" + id + ", val=" + val + ", cop=" + cop
 				+ ", username=" + username + ", password=" + password + "]";
 	}
 	

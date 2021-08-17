@@ -30,7 +30,7 @@ import services.addService;
 
 @RestController
 @RequestMapping(path = "/add")
-@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "https://privateareadbb.herokuapp.com/AddPhoto"} )
+@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "https://privateareadbb.herokuapp.com/"} )
 public class addRestController {
 
 	@Autowired

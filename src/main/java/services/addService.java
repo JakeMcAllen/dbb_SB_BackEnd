@@ -180,7 +180,7 @@ public class addService {
 			
 			is.setImg( imageBytesItm );
 			is.setDescrizione( "Immagine secodaria articolo n°" + i + " ." );
-			is.setCopertina( false );
+			is.setCopertina( (ana.getCop() == 1) ? true : false );
 			is.setArticolo( art.getById( ana.getId() ) );
 			
 			saveImg(is);
