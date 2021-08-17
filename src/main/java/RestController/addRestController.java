@@ -102,6 +102,9 @@ public class addRestController {
 	@JsonPropertyDescription
 	public ResponseEntity<Object> addImgs(@RequestBody addNewImgs imgs) {
 
+		
+		System.out.println("img: " + imgs.toString() );
+		
 		try {
 			
 			// controllo dei dati utente e aggiunta di dati al database
