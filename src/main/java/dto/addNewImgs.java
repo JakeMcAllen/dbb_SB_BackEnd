@@ -1,7 +1,5 @@
 package dto;
 
-import java.util.Arrays;
-
 public class addNewImgs {
 
 	// id dell'articolo

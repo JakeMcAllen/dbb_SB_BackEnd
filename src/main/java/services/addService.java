@@ -57,6 +57,7 @@ public class addService {
 	
 	
 	
+	
 	//   ________________________________________________________________________________
 	//  /                                                                                \
 	// |------------------------------------ ARTICOLO ------------------------------------|
@@ -149,6 +150,8 @@ public class addService {
 	
 	
 	
+	
+	
 	//   ________________________________________________________________________________
 	//  /                                                                                \
 	// |------------------------------------ IMMAGES -------------------------------------|
@@ -177,9 +180,8 @@ public class addService {
 			
 			} catch (IOException e) { e.printStackTrace(); }
 			
-			
 			is.setImg( imageBytesItm );
-			is.setDescrizione( "Immagine secodaria articolo n°" + i + " ." );
+			is.setDescrizione( "Immagine articolo id=" + ana.getId() +". Img n°" + i + " ." );
 			is.setCopertina( (ana.getCop() == 1) ? true : false );
 			is.setArticolo( art.getById( ana.getId() ) );
 			
@@ -262,9 +264,5 @@ public class addService {
 		
 		return listDomRt;		
 	}
-	
-	
-
-	
 	
 }

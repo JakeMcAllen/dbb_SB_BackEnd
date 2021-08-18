@@ -16,7 +16,7 @@ import services.UserService;
 
 @RestController
 @RequestMapping(path = "/usr")
-@CrossOrigin(origins = "https://deblogbrothers.herokuapp.com/")
+@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000/"})
 public class UserRestController {
 
 	@Autowired

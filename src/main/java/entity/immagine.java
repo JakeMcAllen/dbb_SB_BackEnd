@@ -120,7 +120,7 @@ public class immagine {
 
 	@Override
 	public String toString() {
-		return "immagine [id=" + id + ", descrizione=" + descrizione + ", length=" + heigth
+		return "immagine [id=" + id + "img:  " + img.toString().substring(0, 20) +", descrizione=" + descrizione + ", length=" + heigth
 				+ ", width=" + width + ", copertina=" + copertina + "]";
 	}
 
