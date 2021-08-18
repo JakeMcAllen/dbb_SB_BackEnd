@@ -20,7 +20,7 @@ import services.ImmagineService;
 
 @RestController
 @RequestMapping(path = "/img")
-@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000/"})
 public class ImmagineRestController {
 
 	@Autowired
