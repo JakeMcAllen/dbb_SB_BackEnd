@@ -31,7 +31,7 @@ import services.UserService;
 
 @RestController
 @RequestMapping(path = "/artc")
-@CrossOrigin(origins = "https://deblogbrothers.herokuapp.com/")
+@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000/" })
 public class ArticoloRestController {
 	
 	

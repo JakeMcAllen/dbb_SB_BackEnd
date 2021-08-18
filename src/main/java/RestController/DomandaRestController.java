@@ -21,7 +21,7 @@ import services.DomandeService;
 
 @RestController
 @RequestMapping(path = "/dom")
-@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000/"})
+@CrossOrigin(origins = {"https://deblogbrothers.herokuapp.com/", "http://localhost:3000"})
 public class DomandaRestController {
 	
 	@Autowired
